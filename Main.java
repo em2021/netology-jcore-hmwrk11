@@ -4,9 +4,9 @@ public class Main {
 
         Calculator calc = Calculator.instance.get();
         int a = calc.add.apply(1, 2);
-        int b = calc.subtract.apply(10, 2);
+        int b = calc.subtract.apply(1, 1);
         int c = calc.multiply.apply(5, 4);
-        int d = calc.divide.apply(10, 2);
+        int d = calc.divide.apply(a, b);
         int e = calc.pow.apply(5);
         int f = calc.abs.apply(-4);
         boolean g = calc.isPositive.test(-2);
